@@ -1,0 +1,32 @@
+.cards{
+    display: flex;
+    justify-content: space-around;
+
+    /* overflow-x: scroll;*/
+}
+@media (max-width: 900px) {
+    .cards
+    {
+        display:block!important
+    }
+    .cards-Q{
+        margin: auto!important
+    }
+}
+.cards-Q{
+    width: 480px;
+    box-shadow: 0px 0px 8px;
+    margin: 0px 15px;
+}
+.brain{
+    width: 82px;
+    margin: 10px 0px;
+}
+.search{
+    width: 94px;
+    margin: 3px 0px;
+}
+.flash{
+    width: 85px;
+    margin: 10px 0px;
+}
